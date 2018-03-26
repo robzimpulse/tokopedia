@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101719B3CC716D456BDF12F8 /* Pods_tokopediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6681A68FAC08489C1F3138 /* Pods_tokopediaUITests.framework */; };
+		3E502D6420693C8200DB62CA /* ShopTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E502D6220693C8200DB62CA /* ShopTypeTableViewCell.swift */; };
+		3E502D6520693C8200DB62CA /* ShopTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E502D6320693C8200DB62CA /* ShopTypeTableViewCell.xib */; };
+		3E502D6820693C9A00DB62CA /* PriceRangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E502D6620693C9A00DB62CA /* PriceRangeTableViewCell.swift */; };
+		3E502D6920693C9A00DB62CA /* PriceRangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E502D6720693C9A00DB62CA /* PriceRangeTableViewCell.xib */; };
+		3E502D6C20693CAE00DB62CA /* WholesaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E502D6A20693CAE00DB62CA /* WholesaleTableViewCell.swift */; };
+		3E502D6D20693CAE00DB62CA /* WholesaleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E502D6B20693CAE00DB62CA /* WholesaleTableViewCell.xib */; };
+		3E502D6F20693DB200DB62CA /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E502D6E20693DB200DB62CA /* UITableViewCell.swift */; };
+		3E502D712069674D00DB62CA /* ShopTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E502D702069674D00DB62CA /* ShopTypeViewController.swift */; };
+		3E54495C206924F70062713D /* CategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E54495B206924F70062713D /* CategoryResponse.swift */; };
+		3E54495E206925020062713D /* CategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E54495D206925020062713D /* CategoriesResponse.swift */; };
+		3E5449602069275F0062713D /* ShopResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E54495F2069275F0062713D /* ShopResponse.swift */; };
+		3E544962206928530062713D /* WholesalePriceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E544961206928530062713D /* WholesalePriceResponse.swift */; };
+		3E544964206928B20062713D /* LabelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E544963206928B20062713D /* LabelResponse.swift */; };
+		3E544966206928C90062713D /* BadgeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E544965206928C90062713D /* BadgeResponse.swift */; };
+		3E54496E206930130062713D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E54496C206930130062713D /* ProductCell.swift */; };
+		3E54496F206930130062713D /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E54496D206930130062713D /* ProductCell.xib */; };
 		3EB7AA6020691A130090422C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA5F20691A130090422C /* AppDelegate.swift */; };
-		3EB7AA6220691A130090422C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA6120691A130090422C /* ViewController.swift */; };
 		3EB7AA6520691A130090422C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7AA6320691A130090422C /* Main.storyboard */; };
 		3EB7AA6720691A130090422C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7AA6620691A130090422C /* Assets.xcassets */; };
 		3EB7AA6A20691A130090422C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7AA6820691A130090422C /* LaunchScreen.storyboard */; };
 		3EB7AA7520691A130090422C /* tokopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA7420691A130090422C /* tokopediaTests.swift */; };
 		3EB7AA8020691A130090422C /* tokopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA7F20691A130090422C /* tokopediaUITests.swift */; };
+		3EB7AA8E20691BC20090422C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA8D20691BC20090422C /* SearchViewController.swift */; };
+		3EB7AA9020691BC70090422C /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA8F20691BC70090422C /* FilterViewController.swift */; };
+		3EB7AA9520691D600090422C /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA9420691D600090422C /* UIViewController.swift */; };
+		3EB7AA9720691D750090422C /* UINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA9620691D750090422C /* UINavigationViewController.swift */; };
+		3EB7AA9920691DA00090422C /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA9820691DA00090422C /* ReusableView.swift */; };
+		3EB7AA9B20691DB80090422C /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA9A20691DB80090422C /* UICollectionViewCell.swift */; };
+		3EB7AA9E20691EA10090422C /* ProductsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA9D20691EA10090422C /* ProductsResponse.swift */; };
+		3EB7AAA0206920160090422C /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA9F206920160090422C /* StatusResponse.swift */; };
+		3EB7AAA22069202D0090422C /* HeaderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AAA12069202D0090422C /* HeaderResponse.swift */; };
+		3EB7AAA6206920B80090422C /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AAA5206920B80090422C /* ProductResponse.swift */; };
+		6E3BC65D32FB8B2693E734F7 /* Pods_tokopediaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DC7995745F0536E0232661 /* Pods_tokopediaTests.framework */; };
+		A38214A7329D7F6EC3DCE4BB /* Pods_tokopedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555C89C005139AABDA6EB5D4 /* Pods_tokopedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +62,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		391FB616A902FBA08AB06CFF /* Pods-tokopedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tokopedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-tokopedia/Pods-tokopedia.release.xcconfig"; sourceTree = "<group>"; };
+		39DC7995745F0536E0232661 /* Pods_tokopediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tokopediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E502D6220693C8200DB62CA /* ShopTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTypeTableViewCell.swift; sourceTree = "<group>"; };
+		3E502D6320693C8200DB62CA /* ShopTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopTypeTableViewCell.xib; sourceTree = "<group>"; };
+		3E502D6620693C9A00DB62CA /* PriceRangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeTableViewCell.swift; sourceTree = "<group>"; };
+		3E502D6720693C9A00DB62CA /* PriceRangeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceRangeTableViewCell.xib; sourceTree = "<group>"; };
+		3E502D6A20693CAE00DB62CA /* WholesaleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholesaleTableViewCell.swift; sourceTree = "<group>"; };
+		3E502D6B20693CAE00DB62CA /* WholesaleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WholesaleTableViewCell.xib; sourceTree = "<group>"; };
+		3E502D6E20693DB200DB62CA /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		3E502D702069674D00DB62CA /* ShopTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTypeViewController.swift; sourceTree = "<group>"; };
+		3E54495B206924F70062713D /* CategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryResponse.swift; sourceTree = "<group>"; };
+		3E54495D206925020062713D /* CategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesResponse.swift; sourceTree = "<group>"; };
+		3E54495F2069275F0062713D /* ShopResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopResponse.swift; sourceTree = "<group>"; };
+		3E544961206928530062713D /* WholesalePriceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholesalePriceResponse.swift; sourceTree = "<group>"; };
+		3E544963206928B20062713D /* LabelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelResponse.swift; sourceTree = "<group>"; };
+		3E544965206928C90062713D /* BadgeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeResponse.swift; sourceTree = "<group>"; };
+		3E54496C206930130062713D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		3E54496D206930130062713D /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		3EB7AA5C20691A130090422C /* tokopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tokopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB7AA5F20691A130090422C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EB7AA6120691A130090422C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EB7AA6420691A130090422C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EB7AA6620691A130090422C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EB7AA6920691A130090422C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +92,23 @@
 		3EB7AA7B20691A130090422C /* tokopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tokopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB7AA7F20691A130090422C /* tokopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokopediaUITests.swift; sourceTree = "<group>"; };
 		3EB7AA8120691A130090422C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB7AA8D20691BC20090422C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3EB7AA8F20691BC70090422C /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		3EB7AA9420691D600090422C /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		3EB7AA9620691D750090422C /* UINavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationViewController.swift; sourceTree = "<group>"; };
+		3EB7AA9820691DA00090422C /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		3EB7AA9A20691DB80090422C /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		3EB7AA9D20691EA10090422C /* ProductsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsResponse.swift; sourceTree = "<group>"; };
+		3EB7AA9F206920160090422C /* StatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusResponse.swift; sourceTree = "<group>"; };
+		3EB7AAA12069202D0090422C /* HeaderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderResponse.swift; sourceTree = "<group>"; };
+		3EB7AAA5206920B80090422C /* ProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponse.swift; sourceTree = "<group>"; };
+		4F66309FD66F4168C71A27C5 /* Pods-tokopediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tokopediaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tokopediaTests/Pods-tokopediaTests.release.xcconfig"; sourceTree = "<group>"; };
+		555C89C005139AABDA6EB5D4 /* Pods_tokopedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tokopedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2ADD445FD0D10B7DD5535F /* Pods-tokopediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tokopediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tokopediaUITests/Pods-tokopediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4E74796B43DBF991B4DC826 /* Pods-tokopediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tokopediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tokopediaUITests/Pods-tokopediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6681A68FAC08489C1F3138 /* Pods_tokopediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tokopediaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED46EE69843B9904153BF933 /* Pods-tokopediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tokopediaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tokopediaTests/Pods-tokopediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F98CAC9994DF0E103E941BB9 /* Pods-tokopedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tokopedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tokopedia/Pods-tokopedia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38214A7329D7F6EC3DCE4BB /* Pods_tokopedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3BC65D32FB8B2693E734F7 /* Pods_tokopediaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +132,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101719B3CC716D456BDF12F8 /* Pods_tokopediaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E54496720692FD10062713D /* ReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				3E54496C206930130062713D /* ProductCell.swift */,
+				3E54496D206930130062713D /* ProductCell.xib */,
+				3E502D6220693C8200DB62CA /* ShopTypeTableViewCell.swift */,
+				3E502D6320693C8200DB62CA /* ShopTypeTableViewCell.xib */,
+				3E502D6620693C9A00DB62CA /* PriceRangeTableViewCell.swift */,
+				3E502D6720693C9A00DB62CA /* PriceRangeTableViewCell.xib */,
+				3E502D6A20693CAE00DB62CA /* WholesaleTableViewCell.swift */,
+				3E502D6B20693CAE00DB62CA /* WholesaleTableViewCell.xib */,
+			);
+			path = ReusableView;
+			sourceTree = "<group>";
+		};
 		3EB7AA5320691A130090422C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +161,8 @@
 				3EB7AA7320691A130090422C /* tokopediaTests */,
 				3EB7AA7E20691A130090422C /* tokopediaUITests */,
 				3EB7AA5D20691A130090422C /* Products */,
+				7B006CBBAE550183E835C9B7 /* Pods */,
+				FE548710954F1E19B2BAC7B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +179,9 @@
 		3EB7AA5E20691A130090422C /* tokopedia */ = {
 			isa = PBXGroup;
 			children = (
+				3EB7AA9120691D0D0090422C /* Utilities */,
+				3EB7AA9220691D1B0090422C /* Pages */,
 				3EB7AA5F20691A130090422C /* AppDelegate.swift */,
-				3EB7AA6120691A130090422C /* ViewController.swift */,
-				3EB7AA6320691A130090422C /* Main.storyboard */,
 				3EB7AA6620691A130090422C /* Assets.xcassets */,
 				3EB7AA6820691A130090422C /* LaunchScreen.storyboard */,
 				3EB7AA6B20691A130090422C /* Info.plist */,
@@ -125,6 +207,79 @@
 			path = tokopediaUITests;
 			sourceTree = "<group>";
 		};
+		3EB7AA9120691D0D0090422C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3EB7AA9C20691E8B0090422C /* Model */,
+				3EB7AA9320691D3A0090422C /* Extension */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3EB7AA9220691D1B0090422C /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3E54496720692FD10062713D /* ReusableView */,
+				3EB7AA8F20691BC70090422C /* FilterViewController.swift */,
+				3E502D702069674D00DB62CA /* ShopTypeViewController.swift */,
+				3EB7AA8D20691BC20090422C /* SearchViewController.swift */,
+				3EB7AA6320691A130090422C /* Main.storyboard */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3EB7AA9320691D3A0090422C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3EB7AA9820691DA00090422C /* ReusableView.swift */,
+				3EB7AA9A20691DB80090422C /* UICollectionViewCell.swift */,
+				3E502D6E20693DB200DB62CA /* UITableViewCell.swift */,
+				3EB7AA9620691D750090422C /* UINavigationViewController.swift */,
+				3EB7AA9420691D600090422C /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3EB7AA9C20691E8B0090422C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E544965206928C90062713D /* BadgeResponse.swift */,
+				3E54495D206925020062713D /* CategoriesResponse.swift */,
+				3E54495B206924F70062713D /* CategoryResponse.swift */,
+				3EB7AAA12069202D0090422C /* HeaderResponse.swift */,
+				3E544963206928B20062713D /* LabelResponse.swift */,
+				3EB7AAA5206920B80090422C /* ProductResponse.swift */,
+				3EB7AA9D20691EA10090422C /* ProductsResponse.swift */,
+				3E54495F2069275F0062713D /* ShopResponse.swift */,
+				3EB7AA9F206920160090422C /* StatusResponse.swift */,
+				3E544961206928530062713D /* WholesalePriceResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B006CBBAE550183E835C9B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F98CAC9994DF0E103E941BB9 /* Pods-tokopedia.debug.xcconfig */,
+				391FB616A902FBA08AB06CFF /* Pods-tokopedia.release.xcconfig */,
+				ED46EE69843B9904153BF933 /* Pods-tokopediaTests.debug.xcconfig */,
+				4F66309FD66F4168C71A27C5 /* Pods-tokopediaTests.release.xcconfig */,
+				C4E74796B43DBF991B4DC826 /* Pods-tokopediaUITests.debug.xcconfig */,
+				BE2ADD445FD0D10B7DD5535F /* Pods-tokopediaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE548710954F1E19B2BAC7B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				555C89C005139AABDA6EB5D4 /* Pods_tokopedia.framework */,
+				39DC7995745F0536E0232661 /* Pods_tokopediaTests.framework */,
+				CD6681A68FAC08489C1F3138 /* Pods_tokopediaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EB7AA8420691A130090422C /* Build configuration list for PBXNativeTarget "tokopedia" */;
 			buildPhases = (
+				6B2D6DA89233D0A3DA6324C5 /* [CP] Check Pods Manifest.lock */,
 				3EB7AA5820691A130090422C /* Sources */,
 				3EB7AA5920691A130090422C /* Frameworks */,
 				3EB7AA5A20691A130090422C /* Resources */,
+				C097FB1DD36D4589A84BABEB /* [CP] Embed Pods Frameworks */,
+				D91716D484A15F259CB3811C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EB7AA8720691A130090422C /* Build configuration list for PBXNativeTarget "tokopediaTests" */;
 			buildPhases = (
+				609993B0D055F4EE0DC869D7 /* [CP] Check Pods Manifest.lock */,
 				3EB7AA6C20691A130090422C /* Sources */,
 				3EB7AA6D20691A130090422C /* Frameworks */,
 				3EB7AA6E20691A130090422C /* Resources */,
+				6A4087AB61D7372D8909EF77 /* [CP] Embed Pods Frameworks */,
+				874010E25D13469AA127547C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EB7AA8A20691A130090422C /* Build configuration list for PBXNativeTarget "tokopediaUITests" */;
 			buildPhases = (
+				281565B93620FC42BA4C2578 /* [CP] Check Pods Manifest.lock */,
 				3EB7AA7720691A130090422C /* Sources */,
 				3EB7AA7820691A130090422C /* Frameworks */,
 				3EB7AA7920691A130090422C /* Resources */,
+				0048887974A584FC76DDB867 /* [CP] Embed Pods Frameworks */,
+				7A8F854249A3183142957EED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +397,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB7AA6A20691A130090422C /* LaunchScreen.storyboard in Resources */,
+				3E502D6920693C9A00DB62CA /* PriceRangeTableViewCell.xib in Resources */,
+				3E54496F206930130062713D /* ProductCell.xib in Resources */,
 				3EB7AA6720691A130090422C /* Assets.xcassets in Resources */,
+				3E502D6D20693CAE00DB62CA /* WholesaleTableViewCell.xib in Resources */,
+				3E502D6520693C8200DB62CA /* ShopTypeTableViewCell.xib in Resources */,
 				3EB7AA6520691A130090422C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +422,212 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0048887974A584FC76DDB867 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tokopediaUITests/Pods-tokopediaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		281565B93620FC42BA4C2578 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tokopediaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		609993B0D055F4EE0DC869D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tokopediaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4087AB61D7372D8909EF77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tokopediaTests/Pods-tokopediaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2D6DA89233D0A3DA6324C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tokopedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8F854249A3183142957EED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tokopediaUITests/Pods-tokopediaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874010E25D13469AA127547C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tokopediaTests/Pods-tokopediaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C097FB1DD36D4589A84BABEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tokopedia/Pods-tokopedia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/EZSwiftExtensions/EZSwiftExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/TSCurrencyTextField/TSCurrencyTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/UIScrollView-InfiniteScroll/UIScrollView_InfiniteScroll.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSwiftExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RangeSeekSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSCurrencyTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIScrollView_InfiniteScroll.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tokopedia/Pods-tokopedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91716D484A15F259CB3811C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tokopedia/Pods-tokopedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EB7AA5820691A130090422C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB7AA6220691A130090422C /* ViewController.swift in Sources */,
+				3EB7AA9E20691EA10090422C /* ProductsResponse.swift in Sources */,
+				3E54495E206925020062713D /* CategoriesResponse.swift in Sources */,
+				3EB7AAA6206920B80090422C /* ProductResponse.swift in Sources */,
+				3E502D6820693C9A00DB62CA /* PriceRangeTableViewCell.swift in Sources */,
+				3E54495C206924F70062713D /* CategoryResponse.swift in Sources */,
+				3E502D6F20693DB200DB62CA /* UITableViewCell.swift in Sources */,
+				3E5449602069275F0062713D /* ShopResponse.swift in Sources */,
+				3EB7AA8E20691BC20090422C /* SearchViewController.swift in Sources */,
+				3EB7AA9B20691DB80090422C /* UICollectionViewCell.swift in Sources */,
+				3EB7AAA0206920160090422C /* StatusResponse.swift in Sources */,
+				3EB7AA9020691BC70090422C /* FilterViewController.swift in Sources */,
+				3E544962206928530062713D /* WholesalePriceResponse.swift in Sources */,
+				3E502D6420693C8200DB62CA /* ShopTypeTableViewCell.swift in Sources */,
+				3E502D6C20693CAE00DB62CA /* WholesaleTableViewCell.swift in Sources */,
+				3EB7AA9520691D600090422C /* UIViewController.swift in Sources */,
+				3EB7AA9920691DA00090422C /* ReusableView.swift in Sources */,
+				3E544966206928C90062713D /* BadgeResponse.swift in Sources */,
+				3EB7AA9720691D750090422C /* UINavigationViewController.swift in Sources */,
+				3E544964206928B20062713D /* LabelResponse.swift in Sources */,
+				3E54496E206930130062713D /* ProductCell.swift in Sources */,
 				3EB7AA6020691A130090422C /* AppDelegate.swift in Sources */,
+				3EB7AAA22069202D0090422C /* HeaderResponse.swift in Sources */,
+				3E502D712069674D00DB62CA /* ShopTypeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +791,7 @@
 		};
 		3EB7AA8520691A130090422C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98CAC9994DF0E103E941BB9 /* Pods-tokopedia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +806,7 @@
 		};
 		3EB7AA8620691A130090422C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391FB616A902FBA08AB06CFF /* Pods-tokopedia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +821,7 @@
 		};
 		3EB7AA8820691A130090422C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED46EE69843B9904153BF933 /* Pods-tokopediaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +838,7 @@
 		};
 		3EB7AA8920691A130090422C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F66309FD66F4168C71A27C5 /* Pods-tokopediaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +855,7 @@
 		};
 		3EB7AA8B20691A130090422C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E74796B43DBF991B4DC826 /* Pods-tokopediaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +871,7 @@
 		};
 		3EB7AA8C20691A130090422C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2ADD445FD0D10B7DD5535F /* Pods-tokopediaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
