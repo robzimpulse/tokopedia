@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EB7AA6020691A130090422C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA5F20691A130090422C /* AppDelegate.swift */; };
+		3EB7AA6220691A130090422C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA6120691A130090422C /* ViewController.swift */; };
+		3EB7AA6520691A130090422C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7AA6320691A130090422C /* Main.storyboard */; };
+		3EB7AA6720691A130090422C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7AA6620691A130090422C /* Assets.xcassets */; };
+		3EB7AA6A20691A130090422C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7AA6820691A130090422C /* LaunchScreen.storyboard */; };
+		3EB7AA7520691A130090422C /* tokopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA7420691A130090422C /* tokopediaTests.swift */; };
+		3EB7AA8020691A130090422C /* tokopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7AA7F20691A130090422C /* tokopediaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EB7AA7120691A130090422C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB7AA5420691A130090422C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB7AA5B20691A130090422C;
+			remoteInfo = tokopedia;
+		};
+		3EB7AA7C20691A130090422C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB7AA5420691A130090422C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB7AA5B20691A130090422C;
+			remoteInfo = tokopedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EB7AA5C20691A130090422C /* tokopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tokopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB7AA5F20691A130090422C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EB7AA6120691A130090422C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EB7AA6420691A130090422C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EB7AA6620691A130090422C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EB7AA6920691A130090422C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EB7AA6B20691A130090422C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB7AA7020691A130090422C /* tokopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tokopediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB7AA7420691A130090422C /* tokopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokopediaTests.swift; sourceTree = "<group>"; };
+		3EB7AA7620691A130090422C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB7AA7B20691A130090422C /* tokopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tokopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB7AA7F20691A130090422C /* tokopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokopediaUITests.swift; sourceTree = "<group>"; };
+		3EB7AA8120691A130090422C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB7AA5920691A130090422C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB7AA6D20691A130090422C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB7AA7820691A130090422C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB7AA5320691A130090422C = {
+			isa = PBXGroup;
+			children = (
+				3EB7AA5E20691A130090422C /* tokopedia */,
+				3EB7AA7320691A130090422C /* tokopediaTests */,
+				3EB7AA7E20691A130090422C /* tokopediaUITests */,
+				3EB7AA5D20691A130090422C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EB7AA5D20691A130090422C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB7AA5C20691A130090422C /* tokopedia.app */,
+				3EB7AA7020691A130090422C /* tokopediaTests.xctest */,
+				3EB7AA7B20691A130090422C /* tokopediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB7AA5E20691A130090422C /* tokopedia */ = {
+			isa = PBXGroup;
+			children = (
+				3EB7AA5F20691A130090422C /* AppDelegate.swift */,
+				3EB7AA6120691A130090422C /* ViewController.swift */,
+				3EB7AA6320691A130090422C /* Main.storyboard */,
+				3EB7AA6620691A130090422C /* Assets.xcassets */,
+				3EB7AA6820691A130090422C /* LaunchScreen.storyboard */,
+				3EB7AA6B20691A130090422C /* Info.plist */,
+			);
+			path = tokopedia;
+			sourceTree = "<group>";
+		};
+		3EB7AA7320691A130090422C /* tokopediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB7AA7420691A130090422C /* tokopediaTests.swift */,
+				3EB7AA7620691A130090422C /* Info.plist */,
+			);
+			path = tokopediaTests;
+			sourceTree = "<group>";
+		};
+		3EB7AA7E20691A130090422C /* tokopediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB7AA7F20691A130090422C /* tokopediaUITests.swift */,
+				3EB7AA8120691A130090422C /* Info.plist */,
+			);
+			path = tokopediaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB7AA5B20691A130090422C /* tokopedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB7AA8420691A130090422C /* Build configuration list for PBXNativeTarget "tokopedia" */;
+			buildPhases = (
+				3EB7AA5820691A130090422C /* Sources */,
+				3EB7AA5920691A130090422C /* Frameworks */,
+				3EB7AA5A20691A130090422C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tokopedia;
+			productName = tokopedia;
+			productReference = 3EB7AA5C20691A130090422C /* tokopedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EB7AA6F20691A130090422C /* tokopediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB7AA8720691A130090422C /* Build configuration list for PBXNativeTarget "tokopediaTests" */;
+			buildPhases = (
+				3EB7AA6C20691A130090422C /* Sources */,
+				3EB7AA6D20691A130090422C /* Frameworks */,
+				3EB7AA6E20691A130090422C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB7AA7220691A130090422C /* PBXTargetDependency */,
+			);
+			name = tokopediaTests;
+			productName = tokopediaTests;
+			productReference = 3EB7AA7020691A130090422C /* tokopediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EB7AA7A20691A130090422C /* tokopediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB7AA8A20691A130090422C /* Build configuration list for PBXNativeTarget "tokopediaUITests" */;
+			buildPhases = (
+				3EB7AA7720691A130090422C /* Sources */,
+				3EB7AA7820691A130090422C /* Frameworks */,
+				3EB7AA7920691A130090422C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB7AA7D20691A130090422C /* PBXTargetDependency */,
+			);
+			name = tokopediaUITests;
+			productName = tokopediaUITests;
+			productReference = 3EB7AA7B20691A130090422C /* tokopediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB7AA5420691A130090422C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Robyarta Haruli Ruci";
+				TargetAttributes = {
+					3EB7AA5B20691A130090422C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3EB7AA6F20691A130090422C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EB7AA5B20691A130090422C;
+					};
+					3EB7AA7A20691A130090422C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EB7AA5B20691A130090422C;
+					};
+				};
+			};
+			buildConfigurationList = 3EB7AA5720691A130090422C /* Build configuration list for PBXProject "tokopedia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EB7AA5320691A130090422C;
+			productRefGroup = 3EB7AA5D20691A130090422C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EB7AA5B20691A130090422C /* tokopedia */,
+				3EB7AA6F20691A130090422C /* tokopediaTests */,
+				3EB7AA7A20691A130090422C /* tokopediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB7AA5A20691A130090422C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB7AA6A20691A130090422C /* LaunchScreen.storyboard in Resources */,
+				3EB7AA6720691A130090422C /* Assets.xcassets in Resources */,
+				3EB7AA6520691A130090422C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB7AA6E20691A130090422C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB7AA7920691A130090422C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB7AA5820691A130090422C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB7AA6220691A130090422C /* ViewController.swift in Sources */,
+				3EB7AA6020691A130090422C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB7AA6C20691A130090422C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB7AA7520691A130090422C /* tokopediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB7AA7720691A130090422C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB7AA8020691A130090422C /* tokopediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EB7AA7220691A130090422C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB7AA5B20691A130090422C /* tokopedia */;
+			targetProxy = 3EB7AA7120691A130090422C /* PBXContainerItemProxy */;
+		};
+		3EB7AA7D20691A130090422C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB7AA5B20691A130090422C /* tokopedia */;
+			targetProxy = 3EB7AA7C20691A130090422C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EB7AA6320691A130090422C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB7AA6420691A130090422C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EB7AA6820691A130090422C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB7AA6920691A130090422C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EB7AA8220691A130090422C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EB7AA8320691A130090422C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EB7AA8520691A130090422C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tokopedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.robyarta.tokopedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EB7AA8620691A130090422C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tokopedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.robyarta.tokopedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EB7AA8820691A130090422C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tokopediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.robyarta.tokopediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tokopedia.app/tokopedia";
+			};
+			name = Debug;
+		};
+		3EB7AA8920691A130090422C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tokopediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.robyarta.tokopediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tokopedia.app/tokopedia";
+			};
+			name = Release;
+		};
+		3EB7AA8B20691A130090422C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tokopediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.robyarta.tokopediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tokopedia;
+			};
+			name = Debug;
+		};
+		3EB7AA8C20691A130090422C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tokopediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.robyarta.tokopediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tokopedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB7AA5720691A130090422C /* Build configuration list for PBXProject "tokopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB7AA8220691A130090422C /* Debug */,
+				3EB7AA8320691A130090422C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB7AA8420691A130090422C /* Build configuration list for PBXNativeTarget "tokopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB7AA8520691A130090422C /* Debug */,
+				3EB7AA8620691A130090422C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB7AA8720691A130090422C /* Build configuration list for PBXNativeTarget "tokopediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB7AA8820691A130090422C /* Debug */,
+				3EB7AA8920691A130090422C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB7AA8A20691A130090422C /* Build configuration list for PBXNativeTarget "tokopediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB7AA8B20691A130090422C /* Debug */,
+				3EB7AA8C20691A130090422C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB7AA5420691A130090422C /* Project object */;
+}
