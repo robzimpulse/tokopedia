@@ -17,8 +17,13 @@ import TSCurrencyTextField
 struct PriceRangeModel: Equatable {
   var min: Int
   var max: Int
+  var selectedMin: Int
+  var selectedMax: Int
   static func ==(lhs: PriceRangeModel, rhs: PriceRangeModel) -> Bool {
-    return lhs.min == rhs.min && lhs.max == rhs.max
+    return lhs.min == rhs.min
+      && lhs.max == rhs.max
+      && lhs.selectedMax == rhs.selectedMax
+      && lhs.selectedMin == rhs.selectedMin
   }
 }
 
@@ -54,10 +59,9 @@ class PriceRangeTableViewCell: Cell<PriceRangeModel>, CellType {
       .unwrap()
       .map({ CGFloat(exactly: $0) })
       .unwrap()
-      .debounce(0.3, scheduler: MainScheduler.instance)
       .subscribe(onNext: { [weak self] in
         guard let _self = self else {return}
-        guard _self.maxTextField.amount.intValue >= Int($0) else {
+        guard _self.maxTextField.amount.intValue >= Int($0), $0 >= _self.slider.minValue else {
           _self.slider.delegate?.rangeSeekSlider(_self.slider, didChange: _self.slider.selectedMinValue, maxValue: _self.slider.selectedMaxValue)
           return
         }
@@ -72,10 +76,9 @@ class PriceRangeTableViewCell: Cell<PriceRangeModel>, CellType {
       .unwrap()
       .map({ CGFloat(exactly: $0) })
       .unwrap()
-      .debounce(0.3, scheduler: MainScheduler.instance)
       .subscribe(onNext: { [weak self] in
         guard let _self = self else {return}
-        guard _self.minTextField.amount.intValue <= Int($0) else {
+        guard _self.minTextField.amount.intValue <= Int($0), $0 <= _self.slider.maxValue else {
           _self.slider.delegate?.rangeSeekSlider(_self.slider, didChange: _self.slider.selectedMinValue, maxValue: _self.slider.selectedMaxValue)
           return
         }
@@ -91,9 +94,9 @@ class PriceRangeTableViewCell: Cell<PriceRangeModel>, CellType {
     if let value = row.value {
       slider.minValue = CGFloat(value.min)
       slider.maxValue = CGFloat(value.max)
-      slider.selectedMinValue = CGFloat(value.min)
-      slider.selectedMaxValue = CGFloat(value.max)
-      slider.delegate?.rangeSeekSlider(slider, didChange: CGFloat(value.min), maxValue: CGFloat(value.max))
+      slider.selectedMinValue = CGFloat(value.selectedMin)
+      slider.selectedMaxValue = CGFloat(value.selectedMax)
+      slider.delegate?.rangeSeekSlider(slider, didChange: CGFloat(value.selectedMin), maxValue: CGFloat(value.selectedMax))
       slider.layoutSubviews()
     }
   }
@@ -104,8 +107,8 @@ extension PriceRangeTableViewCell: RangeSeekSliderDelegate {
   func rangeSeekSlider(_ slider: RangeSeekSlider, didChange minValue: CGFloat, maxValue: CGFloat) {
     minTextField.amount = NSNumber(value: Float(minValue))
     maxTextField.amount = NSNumber(value: Float(maxValue))
-    row.value?.min = Int(minValue)
-    row.value?.max = Int(maxValue)
+    row.value?.selectedMin = Int(minValue)
+    row.value?.selectedMax = Int(maxValue)
   }
 }
 

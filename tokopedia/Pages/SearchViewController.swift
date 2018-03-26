@@ -20,7 +20,6 @@ class SearchViewController: UIViewController {
   
   @IBOutlet weak var collectionView: UICollectionView!
   
-  let products = Variable<[ProductResponse]>([])
   let disposeBag = DisposeBag()
   
   lazy var layout: UICollectionViewFlowLayout = {
@@ -36,24 +35,18 @@ class SearchViewController: UIViewController {
     
     collectionView.register(cell.nib, forCellWithReuseIdentifier: cell.reuseIdentifier)
     
-    products.asObservable().bind(
+    ProductCache.shared.products.asObservable().bind(
       to: collectionView.rx.items(cellIdentifier: cell.reuseIdentifier, cellType: cell.self),
       curriedArgument: { row, model, cell in cell.configure(model: model) }
     ).disposed(by: disposeBag)
 
-    collectionView.setShouldShowInfiniteScrollHandler({ collectionView in return true })
+    collectionView.setShouldShowInfiniteScrollHandler({ _ in return true })
     
     collectionView.infiniteScrollTriggerOffset = 600
     
-    collectionView.addInfiniteScroll(handler: { [weak self] collectionView in
-      guard let _self = self else {return}
-      let items = _self.products.value.count
-      guard let url = URL(string: "https://ace.tokopedia.com/search/v2.5/product?q=samsung&start=\(items)&rows=10") else {return}
-      request(url).responseObject { [weak self] (response: DataResponse<ProductsResponse>) in
-        collectionView.finishInfiniteScroll()
-        guard let _self = self else {return}
-        _self.products.value.append(contentsOf: response.value?.data ?? [])
-      }
+    collectionView.addInfiniteScroll(handler: { collectionView in
+      ProductCache.shared.nextProduct()
+      collectionView.finishInfiniteScroll()
     })
     
     collectionView.beginInfiniteScroll(false)

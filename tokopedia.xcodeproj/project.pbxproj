@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		101719B3CC716D456BDF12F8 /* Pods_tokopediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6681A68FAC08489C1F3138 /* Pods_tokopediaUITests.framework */; };
+		3E4D9C652069886F00CF8FBD /* ProductCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D9C642069886F00CF8FBD /* ProductCache.swift */; };
 		3E502D6420693C8200DB62CA /* ShopTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E502D6220693C8200DB62CA /* ShopTypeTableViewCell.swift */; };
 		3E502D6520693C8200DB62CA /* ShopTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E502D6320693C8200DB62CA /* ShopTypeTableViewCell.xib */; };
 		3E502D6820693C9A00DB62CA /* PriceRangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E502D6620693C9A00DB62CA /* PriceRangeTableViewCell.swift */; };
@@ -64,6 +65,7 @@
 /* Begin PBXFileReference section */
 		391FB616A902FBA08AB06CFF /* Pods-tokopedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tokopedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-tokopedia/Pods-tokopedia.release.xcconfig"; sourceTree = "<group>"; };
 		39DC7995745F0536E0232661 /* Pods_tokopediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tokopediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4D9C642069886F00CF8FBD /* ProductCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCache.swift; sourceTree = "<group>"; };
 		3E502D6220693C8200DB62CA /* ShopTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTypeTableViewCell.swift; sourceTree = "<group>"; };
 		3E502D6320693C8200DB62CA /* ShopTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopTypeTableViewCell.xib; sourceTree = "<group>"; };
 		3E502D6620693C9A00DB62CA /* PriceRangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeTableViewCell.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			children = (
 				3EB7AA9C20691E8B0090422C /* Model */,
 				3EB7AA9320691D3A0090422C /* Extension */,
+				3E4D9C642069886F00CF8FBD /* ProductCache.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -607,6 +610,7 @@
 			files = (
 				3EB7AA9E20691EA10090422C /* ProductsResponse.swift in Sources */,
 				3E54495E206925020062713D /* CategoriesResponse.swift in Sources */,
+				3E4D9C652069886F00CF8FBD /* ProductCache.swift in Sources */,
 				3EB7AAA6206920B80090422C /* ProductResponse.swift in Sources */,
 				3E502D6820693C9A00DB62CA /* PriceRangeTableViewCell.swift in Sources */,
 				3E54495C206924F70062713D /* CategoryResponse.swift in Sources */,
@@ -795,6 +799,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RPGJ28F8X;
 				INFOPLIST_FILE = tokopedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.robyarta.tokopedia;
@@ -810,6 +815,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RPGJ28F8X;
 				INFOPLIST_FILE = tokopedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.robyarta.tokopedia;
