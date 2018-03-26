@@ -19,6 +19,7 @@ target 'tokopedia' do
   pod 'RxRealm'
   pod 'RxSwiftExt'
   pod 'TSCurrencyTextField'
+  pod 'TagListView'
   pod 'UIScrollView-InfiniteScroll'
   
 
@@ -35,7 +36,7 @@ target 'tokopedia' do
 end
 
 post_install do |installer|
-  myExcludedTargets = ['RxSwift', 'RxCocoa', 'Eureka']
+  myExcludedTargets = ['RxSwift', 'RxCocoa', 'Eureka', 'TagListView']
   installer.pods_project.targets.each do |target|
     
     if target.name == 'RxSwift'

@@ -8,11 +8,15 @@
 
 import UIKit
 import Eureka
+import TagListView
 
 class ShopTypeTableViewCell: Cell<Bool>, CellType {
 
+  @IBOutlet weak var tagView: TagListView!
+  
   override func setup() {
     super.setup()
+    tagView.addTags(["Testing","Again"])
   }
   
   override func update() {
