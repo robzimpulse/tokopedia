@@ -59,8 +59,6 @@ class SearchViewController: UIViewController {
       width: (collectionView.bounds.width - CGFloat(1)) / CGFloat(2) ,
       height: (collectionView.bounds.height - CGFloat(1)) / CGFloat(2)
     )
-    collectionView.contentInset.top = 8
-    collectionView.contentInset.bottom = 8
     collectionView.setCollectionViewLayout(layout, animated: false)
   }
   
