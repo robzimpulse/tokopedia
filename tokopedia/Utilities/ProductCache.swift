@@ -19,11 +19,11 @@ class ProductCache: NSObject {
   let products = Variable<[ProductResponse]>([])
   
   var q: String? = "Samsung"
-  var minPrice: Int = 0
-  var maxPrice: Int = 10000000
-  var wholesale: Bool = false
-  var official: Bool = false
-  var fshop: Int = 2
+  var minPrice: Int?
+  var maxPrice: Int?
+  var wholesale: Bool?
+  var official: Bool?
+  var fshop: Int?
   
   override init() {
     super.init()
@@ -36,11 +36,11 @@ class ProductCache: NSObject {
     if let query = q { urlString.append("q=\(query)") }
     urlString.append("&start=\(products.value.count)")
     urlString.append("&rows=\(10)")
-    urlString.append("&pmin=\(minPrice)")
-    urlString.append("&pmax=\(maxPrice)")
-    urlString.append("&wholesale=\(wholesale ? "true" : "false")")
-    urlString.append("&official=\(official ? "true" : "false")")
-    urlString.append("&fshop=\(fshop)")
+    if let price = minPrice { urlString.append("&pmin=\(price)") }
+    if let price = maxPrice { urlString.append("&pmax=\(price)") }
+    if let wholesale = wholesale { urlString.append("&wholesale=\(wholesale ? "true" : "false")") }
+    if let official = official { urlString.append("&official=\(official ? "true" : "false")") }
+    if let fshop = fshop { urlString.append("&fshop=\(fshop)") }
     print(urlString)
     guard let url = URL(string: urlString) else {completion?(); return}
     request(url).responseObject { [weak self] (response: DataResponse<ProductsResponse>) in

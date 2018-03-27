@@ -26,7 +26,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAN-r8-Glt" customClass="TagListView" customModule="TagListView">
-                        <rect key="frame" x="16" y="41" width="288" height="32"/>
+                        <rect key="frame" x="16" y="49" width="288" height="32"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -68,10 +68,19 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_chevron" translatesAutoresizingMaskIntoConstraints="NO" id="cOz-1B-441">
+                        <rect key="frame" x="296" y="16" width="8" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="15b-cr-7rf"/>
+                            <constraint firstAttribute="height" constant="16" id="fcE-gv-2yG"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="uAN-r8-Glt" firstAttribute="top" secondItem="puz-jn-sUW" secondAttribute="bottom" constant="8" id="4rj-Be-Qy9"/>
+                    <constraint firstItem="uAN-r8-Glt" firstAttribute="top" secondItem="puz-jn-sUW" secondAttribute="bottom" constant="16" id="4rj-Be-Qy9"/>
                     <constraint firstItem="puz-jn-sUW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="5Xf-gv-OUH"/>
+                    <constraint firstItem="cOz-1B-441" firstAttribute="centerY" secondItem="puz-jn-sUW" secondAttribute="centerY" id="7br-FG-2jr"/>
+                    <constraint firstAttribute="trailing" secondItem="cOz-1B-441" secondAttribute="trailing" constant="16" id="8Gk-7m-SBV"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="puz-jn-sUW" secondAttribute="trailing" constant="16" id="T53-dy-9TI"/>
                     <constraint firstItem="uAN-r8-Glt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="cjH-Zw-sry"/>
                     <constraint firstAttribute="trailing" secondItem="uAN-r8-Glt" secondAttribute="trailing" constant="16" id="kZl-QV-fdh"/>
@@ -87,4 +96,7 @@
             <point key="canvasLocation" x="34" y="116.5"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="icon_chevron" width="48" height="48"/>
+    </resources>
 </document>

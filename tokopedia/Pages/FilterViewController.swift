@@ -16,8 +16,8 @@ class FilterViewController: FormViewController {
       $0.value = PriceRangeModel(
         min: 0,
         max: 10000000,
-        selectedMin: ProductCache.shared.minPrice,
-        selectedMax: ProductCache.shared.maxPrice
+        selectedMin: ProductCache.shared.minPrice ?? 0,
+        selectedMax: ProductCache.shared.maxPrice ?? 10000000
       )
     }
   }()
@@ -25,6 +25,10 @@ class FilterViewController: FormViewController {
   lazy var shopTypeRow: ShopTypeTableViewRow = {
     return ShopTypeTableViewRow("shop_type") {
       $0.onCellSelection({ [weak self] _, _ in self?.performSegue(withIdentifier: "shop", sender: self) })
+      $0.value = ShopTypeModel(
+        isGoldMerchant: ProductCache.shared.fshop == 2,
+        isOfficial: ProductCache.shared.official
+      )
     }
   }()
   
@@ -47,11 +51,21 @@ class FilterViewController: FormViewController {
     
   }
   
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    shopTypeRow.value = ShopTypeModel(
+      isGoldMerchant: ProductCache.shared.fshop == 2,
+      isOfficial: ProductCache.shared.official
+    )
+    shopTypeRow.reload()
+  }
+  
   @IBAction func apply(_ sender: Any) {
-    print(form.values())
-    if let wholesale = form.values()["whole_sale"] as? Bool { ProductCache.shared.wholesale = wholesale }
-    if let price = form.values()["range_price"] as? PriceRangeModel { ProductCache.shared.minPrice = price.selectedMin }
-    if let price = form.values()["range_price"] as? PriceRangeModel { ProductCache.shared.maxPrice = price.selectedMax }
+    ProductCache.shared.wholesale = form.values()["whole_sale"] as? Bool
+    ProductCache.shared.minPrice = (form.values()["range_price"] as? PriceRangeModel)?.selectedMin
+    ProductCache.shared.maxPrice = (form.values()["range_price"] as? PriceRangeModel)?.selectedMax
+    ProductCache.shared.official = (form.values()["shop_type"] as? ShopTypeModel)?.isOfficial
+    ProductCache.shared.fshop = ((form.values()["shop_type"] as? ShopTypeModel)?.isGoldMerchant ?? false) ? 2 : nil
     ProductCache.shared.resetProduct()
     ProductCache.shared.nextProduct()
     back(self)
@@ -59,9 +73,11 @@ class FilterViewController: FormViewController {
   
   @IBAction func reset(_ sender: Any) {
     priceRangeRow.value = PriceRangeModel(min: 0, max: 10000000, selectedMin: 0, selectedMax: 10000000)
+    shopTypeRow.value = ShopTypeModel(isGoldMerchant: nil, isOfficial: nil)
     wholeSaleRow.value = false
     priceRangeRow.reload()
     wholeSaleRow.reload()
+    shopTypeRow.reload()
   }
   
 }

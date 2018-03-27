@@ -156,7 +156,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="apply:" destination="dSY-NY-4v7" eventType="touchUpInside" id="E8W-H6-XmI"/>
+                                    <action selector="apply:" destination="UtW-ca-q1v" eventType="touchUpInside" id="Uii-c6-coS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -181,6 +181,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Reset" id="3u3-PW-XG1">
                             <color key="tintColor" red="0.2784313725" green="0.70196078429999997" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="reset:" destination="UtW-ca-q1v" id="FXG-Bj-ilQ"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>

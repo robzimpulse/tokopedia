@@ -64,4 +64,5 @@ class SearchViewController: UIViewController {
     collectionView.setCollectionViewLayout(layout, animated: false)
   }
   
+  
 }
